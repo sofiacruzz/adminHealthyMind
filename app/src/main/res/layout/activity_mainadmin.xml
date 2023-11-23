@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue2"
+    tools:context=".mainadmin">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logonewsinfondo"
+        android:layout_marginLeft="125dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="622dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:padding="16dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIngresaresp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/blue2"
+            android:text="Ingresar especialista"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnveresp"
+            android:backgroundTint="@color/blue2"
+            android:text="Ver especialistas"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnvertransacciones"
+            android:backgroundTint="@color/blue2"
+            android:text="Transacciones"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
