@@ -37,9 +37,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnvertransacciones"
+            android:id="@+id/btncerrar"
             android:backgroundTint="@color/blue2"
-            android:text="Transacciones"/>
+            android:text="Cerrar sesion"/>
 
     </LinearLayout>
 

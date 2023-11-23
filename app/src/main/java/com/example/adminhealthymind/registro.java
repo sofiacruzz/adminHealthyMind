@@ -110,7 +110,7 @@ public class registro extends AppCompatActivity {
                         mFirestore.collection("users-especialista").document(curpp).set(map).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
-                                finish();.
+                                finish();
                                 startActivity(new Intent(registro.this, mainadmin.class));
                             }
                         }).addOnFailureListener(new OnFailureListener() {
